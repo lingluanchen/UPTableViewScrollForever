@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		E9039ECE1DF64C060025E8DF /* UPTableViewInterceptor.m in Sources */ = {isa = PBXBuildFile; fileRef = E9039ECD1DF64C060025E8DF /* UPTableViewInterceptor.m */; };
+		E9E7EC8E1DF5475C0026A0AE /* UPConst.m in Sources */ = {isa = PBXBuildFile; fileRef = E9E7EC8D1DF5475C0026A0AE /* UPConst.m */; };
+		E9E7EC911DF54BF00026A0AE /* UPTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E9E7EC901DF54BF00026A0AE /* UPTableViewController.m */; };
+		E9E7EC941DF55AA70026A0AE /* UPDisplayViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = E9E7EC931DF55AA70026A0AE /* UPDisplayViewCell.m */; };
 		E9F60B421DF2A6520009F1B9 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E9F60B411DF2A6520009F1B9 /* main.m */; };
 		E9F60B451DF2A6520009F1B9 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E9F60B441DF2A6520009F1B9 /* AppDelegate.m */; };
 		E9F60B481DF2A6530009F1B9 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E9F60B471DF2A6530009F1B9 /* ViewController.m */; };
@@ -15,6 +19,8 @@
 		E9F60B501DF2A6530009F1B9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E9F60B4E1DF2A6530009F1B9 /* LaunchScreen.storyboard */; };
 		E9F60B5B1DF2A6530009F1B9 /* UPTableViewDisplayTests.m in Sources */ = {isa = PBXBuildFile; fileRef = E9F60B5A1DF2A6530009F1B9 /* UPTableViewDisplayTests.m */; };
 		E9F60B661DF2A6530009F1B9 /* UPTableViewDisplayUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = E9F60B651DF2A6530009F1B9 /* UPTableViewDisplayUITests.m */; };
+		E9F60B751DF2A7040009F1B9 /* UPScrollViewBar.m in Sources */ = {isa = PBXBuildFile; fileRef = E9F60B741DF2A7040009F1B9 /* UPScrollViewBar.m */; };
+		E9F60B781DF2CAFC0009F1B9 /* UPTableViewDisplay.m in Sources */ = {isa = PBXBuildFile; fileRef = E9F60B771DF2CAFC0009F1B9 /* UPTableViewDisplay.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +41,15 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		E9039ECC1DF64C060025E8DF /* UPTableViewInterceptor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UPTableViewInterceptor.h; sourceTree = "<group>"; };
+		E9039ECD1DF64C060025E8DF /* UPTableViewInterceptor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UPTableViewInterceptor.m; sourceTree = "<group>"; };
+		E9E7EC891DF545490026A0AE /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
+		E9E7EC8C1DF5475C0026A0AE /* UPConst.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UPConst.h; sourceTree = "<group>"; };
+		E9E7EC8D1DF5475C0026A0AE /* UPConst.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UPConst.m; sourceTree = "<group>"; };
+		E9E7EC8F1DF54BF00026A0AE /* UPTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UPTableViewController.h; sourceTree = "<group>"; };
+		E9E7EC901DF54BF00026A0AE /* UPTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UPTableViewController.m; sourceTree = "<group>"; };
+		E9E7EC921DF55AA70026A0AE /* UPDisplayViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UPDisplayViewCell.h; sourceTree = "<group>"; };
+		E9E7EC931DF55AA70026A0AE /* UPDisplayViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UPDisplayViewCell.m; sourceTree = "<group>"; };
 		E9F60B3D1DF2A6510009F1B9 /* UPTableViewDisplay.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = UPTableViewDisplay.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E9F60B411DF2A6520009F1B9 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		E9F60B431DF2A6520009F1B9 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -51,6 +66,10 @@
 		E9F60B611DF2A6530009F1B9 /* UPTableViewDisplayUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = UPTableViewDisplayUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		E9F60B651DF2A6530009F1B9 /* UPTableViewDisplayUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = UPTableViewDisplayUITests.m; sourceTree = "<group>"; };
 		E9F60B671DF2A6530009F1B9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E9F60B731DF2A7040009F1B9 /* UPScrollViewBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UPScrollViewBar.h; sourceTree = "<group>"; };
+		E9F60B741DF2A7040009F1B9 /* UPScrollViewBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UPScrollViewBar.m; sourceTree = "<group>"; };
+		E9F60B761DF2CAFC0009F1B9 /* UPTableViewDisplay.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UPTableViewDisplay.h; sourceTree = "<group>"; };
+		E9F60B771DF2CAFC0009F1B9 /* UPTableViewDisplay.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UPTableViewDisplay.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -78,6 +97,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		E9039ECB1DF64BC80025E8DF /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				E9039ECC1DF64C060025E8DF /* UPTableViewInterceptor.h */,
+				E9039ECD1DF64C060025E8DF /* UPTableViewInterceptor.m */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
 		E9F60B341DF2A6510009F1B9 = {
 			isa = PBXGroup;
 			children = (
@@ -103,12 +131,9 @@
 			children = (
 				E9F60B431DF2A6520009F1B9 /* AppDelegate.h */,
 				E9F60B441DF2A6520009F1B9 /* AppDelegate.m */,
-				E9F60B461DF2A6530009F1B9 /* ViewController.h */,
-				E9F60B471DF2A6530009F1B9 /* ViewController.m */,
-				E9F60B491DF2A6530009F1B9 /* Main.storyboard */,
-				E9F60B4C1DF2A6530009F1B9 /* Assets.xcassets */,
-				E9F60B4E1DF2A6530009F1B9 /* LaunchScreen.storyboard */,
-				E9F60B511DF2A6530009F1B9 /* Info.plist */,
+				E9F60B7A1DF2CB190009F1B9 /* Controller */,
+				E9039ECB1DF64BC80025E8DF /* Model */,
+				E9F60B791DF2CB130009F1B9 /* View */,
 				E9F60B401DF2A6520009F1B9 /* Supporting Files */,
 			);
 			path = UPTableViewDisplay;
@@ -117,6 +142,13 @@
 		E9F60B401DF2A6520009F1B9 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				E9E7EC8C1DF5475C0026A0AE /* UPConst.h */,
+				E9E7EC8D1DF5475C0026A0AE /* UPConst.m */,
+				E9E7EC891DF545490026A0AE /* PrefixHeader.pch */,
+				E9F60B491DF2A6530009F1B9 /* Main.storyboard */,
+				E9F60B4C1DF2A6530009F1B9 /* Assets.xcassets */,
+				E9F60B4E1DF2A6530009F1B9 /* LaunchScreen.storyboard */,
+				E9F60B511DF2A6530009F1B9 /* Info.plist */,
 				E9F60B411DF2A6520009F1B9 /* main.m */,
 			);
 			name = "Supporting Files";
@@ -138,6 +170,30 @@
 				E9F60B671DF2A6530009F1B9 /* Info.plist */,
 			);
 			path = UPTableViewDisplayUITests;
+			sourceTree = "<group>";
+		};
+		E9F60B791DF2CB130009F1B9 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				E9F60B731DF2A7040009F1B9 /* UPScrollViewBar.h */,
+				E9F60B741DF2A7040009F1B9 /* UPScrollViewBar.m */,
+				E9F60B761DF2CAFC0009F1B9 /* UPTableViewDisplay.h */,
+				E9F60B771DF2CAFC0009F1B9 /* UPTableViewDisplay.m */,
+				E9E7EC921DF55AA70026A0AE /* UPDisplayViewCell.h */,
+				E9E7EC931DF55AA70026A0AE /* UPDisplayViewCell.m */,
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		E9F60B7A1DF2CB190009F1B9 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				E9F60B461DF2A6530009F1B9 /* ViewController.h */,
+				E9F60B471DF2A6530009F1B9 /* ViewController.m */,
+				E9E7EC8F1DF54BF00026A0AE /* UPTableViewController.h */,
+				E9E7EC901DF54BF00026A0AE /* UPTableViewController.m */,
+			);
+			name = Controller;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -273,8 +329,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E9E7EC911DF54BF00026A0AE /* UPTableViewController.m in Sources */,
+				E9F60B781DF2CAFC0009F1B9 /* UPTableViewDisplay.m in Sources */,
+				E9F60B751DF2A7040009F1B9 /* UPScrollViewBar.m in Sources */,
+				E9E7EC8E1DF5475C0026A0AE /* UPConst.m in Sources */,
+				E9E7EC941DF55AA70026A0AE /* UPDisplayViewCell.m in Sources */,
 				E9F60B481DF2A6530009F1B9 /* ViewController.m in Sources */,
 				E9F60B451DF2A6520009F1B9 /* AppDelegate.m in Sources */,
+				E9039ECE1DF64C060025E8DF /* UPTableViewInterceptor.m in Sources */,
 				E9F60B421DF2A6520009F1B9 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -422,7 +484,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = UPTableViewDisplay/PrefixHeader.pch;
 				INFOPLIST_FILE = UPTableViewDisplay/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = JM.UPTableViewDisplay;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -433,7 +498,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = UPTableViewDisplay/PrefixHeader.pch;
 				INFOPLIST_FILE = UPTableViewDisplay/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = JM.UPTableViewDisplay;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -505,6 +573,7 @@
 				E9F60B6C1DF2A6530009F1B9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		E9F60B6D1DF2A6530009F1B9 /* Build configuration list for PBXNativeTarget "UPTableViewDisplayTests" */ = {
 			isa = XCConfigurationList;
@@ -513,6 +582,7 @@
 				E9F60B6F1DF2A6530009F1B9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		E9F60B701DF2A6530009F1B9 /* Build configuration list for PBXNativeTarget "UPTableViewDisplayUITests" */ = {
 			isa = XCConfigurationList;
@@ -521,6 +591,7 @@
 				E9F60B721DF2A6530009F1B9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
